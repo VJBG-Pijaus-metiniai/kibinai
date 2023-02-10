@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useRecoilState } from 'recoil';
 import HeroSection from './components/Home/HeroSection';
-import Footer from './components/Layout/footer';
+import Footer from './components/Layout/Footer';
 import { Header } from './components/Layout/Header';
 import { isMobileState } from './state/responsive';
 
