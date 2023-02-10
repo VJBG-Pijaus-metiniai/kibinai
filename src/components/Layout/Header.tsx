@@ -9,7 +9,7 @@ export const Header = () => {
 
   return (
     <div className="fixed top-0 w-screen z-10 bg-yellow-100">
-      <div className="pt-3 pb-0 px-5 text-2xl md:py-5 md:px-8 flex justify-between md:text-xl text-yellow-600 max-w-5xl mx-auto">
+      <div className="py-3 px-5 text-2xl md:py-5 md:px-8 flex justify-between md:text-xl text-yellow-600 max-w-5xl mx-auto">
         <div className="list-none flex items-center gap-6">
           {isMobile ? (
             <GiHamburgerMenu onClick={() => setIsDropped(!isDropped)} />
