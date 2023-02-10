@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+canvas {
+  margin-left: 0;
+  position: relative;
+  z-index: 0;
+}
+
+@media(min-width: 768px) {
+  canvas {
+    margin-left: -150px;
+  }
+}
