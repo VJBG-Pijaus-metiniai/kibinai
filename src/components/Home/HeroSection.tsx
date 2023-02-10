@@ -4,6 +4,7 @@ import Globe from 'react-globe.gl';
 const HeroSection = () => {
   const globeEl = useRef<any>();
   const N = 100;
+  const [countries, setCountries] = useState({ features: [] });
 
   const arcsData = [...Array(N).keys()].map(() => ({
     startLat: (Math.random() - 0.5) * 400,
@@ -21,6 +22,12 @@ const HeroSection = () => {
   }));
 
   useEffect(() => {
+    fetch('../datasets/ne_110m_admin_0_countries.geojson')
+      .then((res) => res.json())
+      .then(setCountries);
+  }, []);
+
+  useEffect(() => {
     globeEl.current.controls().enableZoom = false;
     globeEl.current.controls().autoRotate = true;
     globeEl.current.controls().autoRotateSpeed = 0.7;
@@ -32,17 +39,15 @@ const HeroSection = () => {
       className="items-center flex flex-col md:flex-row px-3 pt-[25%] md:pt-0 w-screen overflow-hidden md:px-10"
     >
       <div className="text-center min-w-xl text-4xl text-yellow-600 md:ml-[8%] z-10 relative">
-        KIBINAI
-        <br />
-        VJBG 2023 m. Europos statistikos konkursas
-        <br />
-        Balsuokit už mus{' '}
+        KIBINAI VJBG 2023.
+        <br /> Balsuokit už mus{' '}
         <a
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           className="underline cursor-pointer text-yellow-500"
         >
           čia
-        </a>
+        </a>{' '}
+        😁
       </div>
       <div className="max-w-lg">
         <Globe

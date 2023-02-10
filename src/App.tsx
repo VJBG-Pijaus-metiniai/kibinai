@@ -6,7 +6,7 @@ import { Header } from './components/Layout/Header';
 import { isMobileState } from './state/responsive';
 
 const App = () => {
-  const [isMobile, setIsMobile] = useRecoilState(isMobileState);
+  const [_, setIsMobile] = useRecoilState(isMobileState);
   const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const App = () => {
   }, [width]);
 
   return (
-    <div className="bg-yellow-100 overflow-hidden">
+    <div className="bg-yellow-100 overflow-hidden scroll-smooth">
       <Header />
       <HeroSection />
       <Footer />
