@@ -26,9 +26,9 @@ export const MappingComp: React.FC<MapProps> = ({
           {year + 2019}
         </p>
         <ReactSlider
-          className="customSlider"
-          trackClassName="customSlider-track"
-          thumbClassName="customSlider-thumb"
+          className="m-auto m-w-full"
+          trackClassName="top-[8px] h-[4px] bg-yellow-300 customSlider-track"
+          thumbClassName="cursor-pointer bg-yellow-600 w-[20px] h-[20px] rounded-xl outline-none hover:shadow-sm"
           min={0}
           max={4}
           onChange={(val) => setYear(val)}
