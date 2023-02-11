@@ -8,7 +8,7 @@ export const Header = () => {
   const [isDropped, setIsDropped] = useState(false);
 
   return (
-    <div className="fixed top-0 w-screen z-10 bg-yellow-100">
+    <div className="fixed top-0 w-screen z-50 bg-yellow-100">
       <div className="py-3 px-5 text-2xl md:py-5 md:px-8 flex justify-between md:text-xl text-yellow-600 max-w-5xl mx-auto">
         <div className="list-none flex items-center gap-6">
           {isMobile ? (
@@ -25,6 +25,31 @@ export const Header = () => {
                 Apie komanda
               </a>
             </>
+          )}
+          {isDropped && (
+            <div className="absolute top-10 left-5 p-3 flex gap-3 flex-col text-center bg-yellow-200 rounded-lg">
+              <a
+                href="#home"
+                onClick={() => setIsDropped(false)}
+                className="cursor-pointer"
+              >
+                Pagrindinis
+              </a>
+              <a
+                href="#stats"
+                onClick={() => setIsDropped(false)}
+                className="cursor-pointer"
+              >
+                Statistika
+              </a>
+              <a
+                href="#about"
+                onClick={() => setIsDropped(false)}
+                className="cursor-pointer"
+              >
+                Apie komanda
+              </a>
+            </div>
           )}
         </div>
         <div>

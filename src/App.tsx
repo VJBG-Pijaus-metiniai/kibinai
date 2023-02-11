@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
 import { useRecoilState } from 'recoil';
-import HeroSection from './components/Home/HeroSection';
+import HeroSection from './Pages/Home/HeroSection';
 import Footer from './components/Layout/Footer';
 import { Header } from './components/Layout/Header';
+import Statistics from './Pages/Statistics/Statistics';
 import { isMobileState } from './state/responsive';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
     <div className="bg-yellow-100 overflow-hidden scroll-smooth">
       <Header />
       <HeroSection />
+      <Statistics />
       <Footer />
     </div>
   );

@@ -4,7 +4,6 @@ import Globe from 'react-globe.gl';
 const HeroSection = () => {
   const globeEl = useRef<any>();
   const N = 100;
-  const [countries, setCountries] = useState({ features: [] });
 
   const arcsData = [...Array(N).keys()].map(() => ({
     startLat: (Math.random() - 0.5) * 400,
@@ -20,12 +19,6 @@ const HeroSection = () => {
       ],
     ],
   }));
-
-  useEffect(() => {
-    fetch('../datasets/ne_110m_admin_0_countries.geojson')
-      .then((res) => res.json())
-      .then(setCountries);
-  }, []);
 
   useEffect(() => {
     globeEl.current.controls().enableZoom = false;
