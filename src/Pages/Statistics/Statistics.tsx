@@ -36,7 +36,7 @@ const Statistics = () => {
         voluptas nulla pariatur?
         <br />
         <p className="text-red-500 text-xl">
-          ŠITA TEKSTA KEISIM Į NORMALŲ ATEJUS LAIKUI!!!
+          ŠITĄ TEKSTĄ KEISIM Į NORMALŲ ATĖJUS LAIKUI!!!
         </p>
       </div>
       <div>
