@@ -5,6 +5,7 @@ import Footer from './components/Layout/Footer';
 import { Header } from './components/Layout/Header';
 import Statistics from './Pages/Statistics/Statistics';
 import { isMobileState } from './state/responsive';
+import AboutUs from './Pages/About/AboutUs';
 
 const App = () => {
   const [_, setIsMobile] = useRecoilState(isMobileState);
@@ -23,6 +24,7 @@ const App = () => {
       <Header />
       <HeroSection />
       <Statistics />
+      <AboutUs />
       <Footer />
     </div>
   );

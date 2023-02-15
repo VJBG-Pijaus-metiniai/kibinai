@@ -1,23 +1,15 @@
-import React, { useState } from 'react';
 import { MappingComp } from '../../components/Map';
 
-export interface CountryData {
-  countryName: string;
-  data: {
-    infliationRate: number;
-    kibinCount: number;
-    year: number;
-  }[];
-}
-
 const Statistics = () => {
-  const [countryData, setCountryData] = useState<CountryData[]>([]);
   const defaultCenter = [55.1694, 23.8813] as [number, number];
   const defaultZoom = 5;
 
   return (
-    <div className="max-w-7xl py-5 pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-between">
-      <div className="md:mt-4 text-yellow-600 text-md flex-1 md:px-6">
+    <div
+      id="stats"
+      className="max-w-7xl py-7 md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-between"
+    >
+      <div className="md:mt-4 px-3 text-yellow-600 text-md flex-1 md:px-6">
         <p className="text-2xl mb-4">
           Europos valstybiu infliacija pastaruosius 5 metus
         </p>
@@ -40,11 +32,7 @@ const Statistics = () => {
         </p>
       </div>
       <div>
-        <MappingComp
-          center={defaultCenter}
-          zoom={defaultZoom}
-          countryMarkers={countryData}
-        />
+        <MappingComp center={defaultCenter} zoom={defaultZoom} />
       </div>
     </div>
   );

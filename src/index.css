@@ -6,6 +6,11 @@
   background: #CA8A04;
 }
 
+.slider-wrapper {
+  width: 500px !important;
+  height: 500px !important;
+}
+
 canvas {
   margin-left: 0;
   position: relative;
