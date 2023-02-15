@@ -36,7 +36,6 @@ const AboutUs = () => {
           autoPlay={true}
           dynamicHeight={true}
           infiniteLoop={true}
-          renderThumbs={() => null}
           onChange={(e) => setStep(e)}
           showStatus={false}
           selectedItem={step}
