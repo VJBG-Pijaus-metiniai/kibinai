@@ -1,21 +1,33 @@
 import React, { useEffect, useState } from 'react';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
+import padaleika from '../../components/datasets/pfp/padaleika.jpg';
+import juze from '../../components/datasets/pfp/juze.jpg';
+import serapinas from '../../components/datasets/pfp/serapinas.jpeg';
+import { useRecoilValue } from 'recoil';
+import { isMobileState } from '../../state/responsive';
 
 const stepDataObj = [
   {
     name: 'Pijus Serapinas',
     description:
-      "The one who developed the app you're looking at... A 16 year old proffesional Front-end React developer, working at SpectroFinance of the time making this project into reality",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat. Praesent elementum facilisis leo vel fringilla est ullamcorper. Massa enim nec dui nunc. Ornare aenean euismod elementum nisi quis eleifend. Nunc vel risus commodo viverra maecenas accumsan lacus vel. Nibh mauris cursus mattis molestie a. Fermentum posuere urna nec tincidunt praesent. Eu facilisis sed odio morbi quis commodo odio aenean sed. Fames ac turpis egestas maecenas pharetra convallis posuere. Ac tortor vitae',
   },
   {
     name: 'Juozas Krinickis',
     description:
-      'Loves fishing and climbing trees in Trakai, Lithuania... Helped with researching the current state of inflation in the European Union',
+      'Facilisis magna etiam tempor orci eu. Feugiat nibh sed pulvinar proin. Ipsum dolor sit amet consectetur. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Sit amet justo donec enim diam vulputate ut. Condimentum id venenatis a condimentum. Praesent elementum facilisis leo vel fringilla.',
+  },
+  {
+    name: 'Pijus Padalevičius',
+    description:
+      'Morbi tincidunt augue interdum velit. Sit amet mattis vulputate enim nulla. A erat nam at lectus urna duis convallis convallis. Sem et tortor consequat id. A diam maecenas sed enim. Vitae turpis massa sed elementum tempus egestas sed sed. Et netus et malesuada fames ac turpis egestas. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Morbi enim nunc faucibus a.',
   },
 ];
 
 const AboutUs = () => {
+  const isMobile = useRecoilValue(isMobileState);
   const [step, setStep] = useState(0);
   const [stepData, setStepData] = useState<{
     name: string;
@@ -29,10 +41,11 @@ const AboutUs = () => {
   return (
     <div
       id="about"
-      className="max-w-7xl pb-7 pt-[150px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-center"
+      className="max-w-7xl pt-[100px] pb-[50px] md:pb-[20px] px-5 md:px-0 md:pt-[150px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-center"
     >
-      <div>
+      <div className="mb-4 md:mb-0">
         <Carousel
+          width={isMobile ? window.innerWidth - 30 : undefined}
           autoPlay={true}
           dynamicHeight={true}
           infiniteLoop={true}
@@ -41,10 +54,13 @@ const AboutUs = () => {
           selectedItem={step}
         >
           <div>
-            <img src="https://scontent.fvno2-1.fna.fbcdn.net/v/t39.30808-6/294944667_1760321254320393_742224564036456557_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZAgW8eU03kcAX9BeIFj&_nc_ht=scontent.fvno2-1.fna&oh=00_AfCP6Y6vCTU9L_u__ViMdDlIdReSqg8FWFWkjme5ia8ApQ&oe=63F1B3C5" />
+            <img src={serapinas} alt="Pijus S." />
           </div>
           <div>
-            <img src="https://instagram.fvno2-1.fna.fbcdn.net/v/t51.2885-15/209029083_2925958987661393_6792947707676647040_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fvno2-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=74TcVpzZeSoAX_um2Cp&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MjYwOTc2ODYwNDY4NDQyMzE0Mg%3D%3D.2-ccb7-5&oh=00_AfDMIHdOfb7fqksOu2NRguZWj7vR0xXQm5VfgDb8w8ibPQ&oe=63F1A4CE&_nc_sid=1527a3" />
+            <img src={juze} alt="Juozas" />
+          </div>
+          <div>
+            <img src={padaleika} alt="Pijus P." />
           </div>
         </Carousel>
       </div>

@@ -44,7 +44,7 @@ export const MappingComp: React.FC<MapProps> = ({ center, zoom }) => {
   return (
     <div className="z-20 mt-3 md:mt-0 relative">
       <Map
-        width={isMobile ? 400 : 650}
+        width={isMobile ? window.innerWidth - 30 : 650}
         height={isMobile ? 300 : 500}
         minZoom={4}
         center={center}
