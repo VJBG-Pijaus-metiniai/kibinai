@@ -44,7 +44,7 @@ const AboutUs = () => {
             <img src="https://scontent.fvno2-1.fna.fbcdn.net/v/t39.30808-6/294944667_1760321254320393_742224564036456557_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZAgW8eU03kcAX9BeIFj&_nc_ht=scontent.fvno2-1.fna&oh=00_AfCP6Y6vCTU9L_u__ViMdDlIdReSqg8FWFWkjme5ia8ApQ&oe=63F1B3C5" />
           </div>
           <div>
-            <img src="https://scontent.fvno2-1.fna.fbcdn.net/v/t39.30808-6/308612058_1276985906378405_251425496074985451_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_QarTOQCiZ4AX_3muxJ&_nc_ht=scontent.fvno2-1.fna&oh=00_AfAQ1bgwXbBhGkCxsk2-gBXOnQmbhsBoyIyNFcPi4uNYQQ&oe=63F1873E" />
+            <img src="https://instagram.fvno2-1.fna.fbcdn.net/v/t51.2885-15/209029083_2925958987661393_6792947707676647040_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fvno2-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=74TcVpzZeSoAX_um2Cp&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MjYwOTc2ODYwNDY4NDQyMzE0Mg%3D%3D.2-ccb7-5&oh=00_AfDMIHdOfb7fqksOu2NRguZWj7vR0xXQm5VfgDb8w8ibPQ&oe=63F1A4CE&_nc_sid=1527a3" />
           </div>
         </Carousel>
       </div>

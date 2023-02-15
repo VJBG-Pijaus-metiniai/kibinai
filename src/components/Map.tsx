@@ -46,6 +46,7 @@ export const MappingComp: React.FC<MapProps> = ({ center, zoom }) => {
       <Map
         width={isMobile ? 400 : 650}
         height={isMobile ? 300 : 500}
+        minZoom={4}
         center={center}
         zoom={zoom}
       >
@@ -53,7 +54,7 @@ export const MappingComp: React.FC<MapProps> = ({ center, zoom }) => {
         {countryData.map((country) => {
           return (
             <Marker anchor={[country.lat, country.lng]} width={25}>
-              <div className="bg-yellow-200 p-2 rounded-xl text-yellow-600">
+              <div className="bg-yellow-200 p-1 rounded-xl text-yellow-600">
                 {country.data[year]} x
               </div>
             </Marker>
@@ -61,7 +62,7 @@ export const MappingComp: React.FC<MapProps> = ({ center, zoom }) => {
         })}
       </Map>
       <div className="absolute bottom-0 left-0 z-50">
-        <p className="p-3 bg-yellow-100 mx-2 mb-4 text-yellow-500 w-[100px] text-center rounded-xl">
+        <p className="p-2 bg-yellow-100 mx-2 mb-4 text-yellow-500 w-[100px] text-center rounded-xl">
           {year + 2019}
         </p>
         <ReactSlider
