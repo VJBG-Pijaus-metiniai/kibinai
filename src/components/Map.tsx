@@ -54,8 +54,13 @@ export const MappingComp: React.FC<MapProps> = ({ center, zoom }) => {
         {countryData.map((country) => {
           return (
             <Marker anchor={[country.lat, country.lng]} width={25}>
-              <div className="bg-yellow-200 p-1 rounded-xl text-yellow-600">
+              <div className="bg-yellow-200 p-1 gap-2 rounded-xl text-yellow-600 flex items-center">
                 {country.data[year]} x
+                <img
+                  width="30px"
+                  src="https://mokslininku.lt/wp-content/uploads/2020/03/product-kibinas.png"
+                  alt="Kibinas"
+                />
               </div>
             </Marker>
           );
