@@ -21,7 +21,7 @@ const stepDataObj = [
   },
   {
     name: 'Pijus Padalevičius',
-    description: 'Esu didžiausias durnelis šios žemės paviršiuje',
+    description: 'Dievas',
   },
 ];
 
