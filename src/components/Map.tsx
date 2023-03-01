@@ -5,6 +5,7 @@ import { useRecoilValue } from 'recoil';
 import { isMobileState } from '../state/responsive';
 import countryCoords from '../components/datasets/coords.json';
 import inflationRateE from '../components/datasets/inflation.json';
+import kibinLogo from '../images/kibinas.svg';
 
 const inflationRate = inflationRateE as any;
 
@@ -56,11 +57,7 @@ export const MappingComp: React.FC<MapProps> = ({ center, zoom }) => {
             <Marker anchor={[country.lat, country.lng]} width={25}>
               <div className="bg-yellow-200 p-1 gap-2 rounded-xl text-yellow-600 flex items-center">
                 {country.data[year]} x
-                <img
-                  width="30px"
-                  src="https://mokslininku.lt/wp-content/uploads/2020/03/product-kibinas.png"
-                  alt="Kibinas"
-                />
+                <img width="30px" src={kibinLogo} alt="Kibinas" />
               </div>
             </Marker>
           );

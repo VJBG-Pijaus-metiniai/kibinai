@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { isMobileState } from '../../state/responsive';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import kibinLogo from '../../images/kibinas.svg';
 
 export const Header = () => {
   const isMobile = useRecoilValue(isMobileState);
@@ -53,7 +54,9 @@ export const Header = () => {
           )}
         </div>
         <div>
-          <div>KIBINAI logo</div>
+          <div className="max-w-[75px]">
+            <img src={kibinLogo} alt="Kibinu komandos logo" />
+          </div>
         </div>
       </div>
     </div>

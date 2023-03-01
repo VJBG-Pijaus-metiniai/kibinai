@@ -21,8 +21,7 @@ const stepDataObj = [
   },
   {
     name: 'Pijus Padalevičius',
-    description:
-      'Morbi tincidunt augue interdum velit. Sit amet mattis vulputate enim nulla. A erat nam at lectus urna duis convallis convallis. Sem et tortor consequat id. A diam maecenas sed enim. Vitae turpis massa sed elementum tempus egestas sed sed. Et netus et malesuada fames ac turpis egestas. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Morbi enim nunc faucibus a.',
+    description: 'Esu didžiausias durnelis šios žemės paviršiuje',
   },
 ];
 
