@@ -3,8 +3,8 @@ import { Map, Marker, ZoomControl } from 'pigeon-maps';
 import ReactSlider from 'react-slider';
 import { useRecoilValue } from 'recoil';
 import { isMobileState } from '../state/responsive';
-import countryCoords from '../components/datasets/coords.json';
-import inflationRateE from '../components/datasets/inflation.json';
+import countryCoords from '../datasets/coords.json';
+import inflationRateE from '../datasets/inflation_kibin.json';
 import kibinLogo from '../images/kibinas.svg';
 
 const inflationRate = inflationRateE as any;
