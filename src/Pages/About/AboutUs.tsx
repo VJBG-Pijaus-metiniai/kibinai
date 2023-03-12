@@ -26,7 +26,7 @@ const stepDataObj = [
       'Aš Pijus, gyvenu Vilniuje, mokausi Vilniaus Jono Basanavičiaus gimnazijoje, mėgstu žaisti vaizdo žaidimus, sportuoti, o labiausiai mėgstu - valgyti. Esu žingeidus ir visuomeniškai aktyvus, ateityje noriu dirbti aviacijos ar energetikos srityse. ',
   },
   {
-    name: 'Laura Armanavičienė',
+    name: 'Laura Armanavičė',
     description:
       'Esu Laura Armanavičė, Vilniaus Jono Basanavičiaus gimnazijos geografijos mokytoja. Nuo 3 metukų ant źemėlapio užkelta savo tėvelio Vytauto, žemėlapį širdyje nešiojuosi iki šiol. Domiuosi Lietuva ir pasauliu, dievinu fantastiką, mėgstu skaityti, keliauti, diskutuoti aktualiomis temomis, myliu savo darbą ir džiaugiuosi galėdama savo patirtimis dalintis su savo mokiniais.',
   },
