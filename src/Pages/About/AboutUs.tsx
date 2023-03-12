@@ -27,7 +27,8 @@ const stepDataObj = [
   },
   {
     name: 'Laura Armanavičienė',
-    description: '',
+    description:
+      'Esu Laura Armanavičė, Vilniaus Jono Basanavičiaus gimnazijos geografijos mokytoja. Nuo 3 metukų ant źemėlapio užkelta savo tėvelio Vytauto, žemėlapį širdyje nešiojuosi iki šiol. Domiuosi Lietuva ir pasauliu, dievinu fantastiką, mėgstu skaityti, keliauti, diskutuoti aktualiomis temomis, myliu savo darbą ir džiaugiuosi galėdama savo patirtimis dalintis su savo mokiniais.',
   },
 ];
 
