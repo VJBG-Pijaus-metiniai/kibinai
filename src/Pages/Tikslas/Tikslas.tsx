@@ -5,7 +5,7 @@ const Tikslas = () => {
     <>
       <div
         id="target"
-        className="max-w-7xl py-[250px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-between"
+        className="max-w-7xl pt-[250px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-between"
       >
         <img
           className="m-3 max-w-[95%] md:max-w-lg"
@@ -34,29 +34,31 @@ const Tikslas = () => {
           <br />
         </div>
       </div>
-      <div className="max-w-7xl py-[250px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-between">
-        <p className="my-2 text-2xl">Uždaviniai:</p>
-        <ol className="list-decimal ml-5">
-          <li>
-            sužinoti kaip pasikeitė 100€ perkamoji galia per pastaruosius 5
-            metus euro zonai priklausančiose šalyse
-          </li>
-          <li>sudaryti būtiniausių maisto prekių sąrašą</li>
-          <li>sudaryti būtiniausių paslaugų sąrašą</li>
-          <li>
-            išanalizuoti statistikos šaltinius apie pasirinktų prekių ir
-            paslaugų kainų pokytį 2017 iki 2021 m.
-          </li>
-          <li>
-            sudaryti duomenų lenteles apie pasirinktų prekių ir paslaugų kainų
-            pokytį 2017 iki 2021 m.
-          </li>
-          <li>
-            sukurti svetainę, kurioje bus pateikta informacija apie būtiniausių
-            maisto prekių krepšelio ir būtiniausių paslaugų kainos pokyčius per
-            2017 - 2021 metus.
-          </li>
-        </ol>
+      <div className="max-w-7xl pb-[250px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:justify-between">
+        <div className="md:mt-4 px-3 text-yellow-600 text-xl flex-1 md:px-6">
+          <p className="my-2 text-2xl">Uždaviniai:</p>
+          <ol className="list-decimal ml-5">
+            <li>
+              sužinoti kaip pasikeitė 100€ perkamoji galia per pastaruosius 5
+              metus euro zonai priklausančiose šalyse
+            </li>
+            <li>sudaryti būtiniausių maisto prekių sąrašą</li>
+            <li>sudaryti būtiniausių paslaugų sąrašą</li>
+            <li>
+              išanalizuoti statistikos šaltinius apie pasirinktų prekių ir
+              paslaugų kainų pokytį 2017 iki 2021 m.
+            </li>
+            <li>
+              sudaryti duomenų lenteles apie pasirinktų prekių ir paslaugų kainų
+              pokytį 2017 iki 2021 m.
+            </li>
+            <li>
+              sukurti svetainę, kurioje bus pateikta informacija apie
+              būtiniausių maisto prekių krepšelio ir būtiniausių paslaugų kainos
+              pokyčius per 2017 - 2021 metus.
+            </li>
+          </ol>
+        </div>
       </div>
     </>
   );
