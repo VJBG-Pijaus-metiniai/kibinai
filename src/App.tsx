@@ -6,7 +6,7 @@ import { Header } from './components/Layout/Header';
 import Statistics from './Pages/Statistics/Statistics';
 import { isMobileState } from './state/responsive';
 import Tikslas from './Pages/Tikslas/Tikslas';
-import AboutTeam from './Pages/About/AboutTeam';
+import AboutTeam from './Pages/AboutTeam/AboutTeam';
 import Pirkiniai from './Pages/Pirkiniai/Pirkiniai';
 import Paslaugos from './Pages/Paslaugos/Paslaugos';
 import Thoughts from './Pages/Thoughts/Thoughts';
