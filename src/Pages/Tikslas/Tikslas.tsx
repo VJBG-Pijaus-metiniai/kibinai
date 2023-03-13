@@ -16,6 +16,7 @@ const Tikslas = () => {
           Kainų pokyčiai: kaip keitėsi prekių ir paslaugų kainos per
           pastaruosius 5 metus?
         </p>
+        <p className="text-2xl mb-2">Pagrindinis tikslas: išsiaiškinti kaip keitėsi būtiniausių maisto prekių krepšelio  ir būtiniausių paslaugų  kaina per pastaruosius 5 metus.</p>
         <br />
         Per pastaruosius 5 metus prekių ir paslaugų kainos keitėsi skirtingai
         priklausomai nuo kiekvienos prekės ar paslaugos rinkos, ekonomikos
@@ -25,6 +26,14 @@ const Tikslas = () => {
         Infliacija yra bendra kainų lygio kilimo tendencija. Tai reiškia, kad
         infliacija didina prekių ir paslaugų kainas, nes už tą patį kiekį pinigų
         galima nusipirkti mažiau prekių ar paslaugų.
+        <ol>
+          <li>sužinoti kaip pasikeitė 100€ perkamoji galia per pastaruosius 5 metus euro zonai priklausančiose šalyse</li>
+          <li>sudaryti būtiniausių maisto prekių sąrašą</li>
+          <li>sudaryti būtiniausių paslaugų sąrašą</li>
+          <li>išanalizuoti statistikos šaltinius apie pasirinktų prekių ir paslaugų kainų pokytį 2017 iki 2021 m.</li>
+          <li>sudaryti duomenų lenteles apie pasirinktų prekių ir paslaugų kainų pokytį 2017 iki 2021 m.</li>
+          <li>sukurti svetainę, kurioje bus pateikta informacija apie būtiniausių maisto prekių krepšelio  ir būtiniausių paslaugų  kainos pokyčius per 2017 - 2021 metus.</li>
+        </ol>
       </div>
     </div>
   );
