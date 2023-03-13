@@ -6,7 +6,7 @@ import { Header } from './components/Layout/Header';
 import Statistics from './Pages/Statistics/Statistics';
 import { isMobileState } from './state/responsive';
 import Tikslas from './Pages/Tikslas/Tikslas';
-import AboutUs from './Pages/About/AboutUs';
+import AboutTeam from './Pages/About/AboutTeam';
 import Pirkiniai from './Pages/Pirkiniai/Pirkiniai';
 import Paslaugos from './Pages/Paslaugos/Paslaugos';
 import Thoughts from './Pages/Thoughts/Thoughts';
@@ -27,11 +27,11 @@ const App = () => {
     <div className="bg-yellow-100 overflow-hidden scroll-smooth">
       <Header />
       <HeroSection />
+      <AboutTeam />
       <Tikslas />
       <Statistics />
       <Pirkiniai />
       <Paslaugos />
-      {/* <AboutUs /> */}
       <Thoughts />
       <Footer />
     </div>
