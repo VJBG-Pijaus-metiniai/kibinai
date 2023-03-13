@@ -28,4 +28,4 @@ const AboutTeam = () => {
   );
 };
 
-export default Thoughts;
+export default AboutTeam;
