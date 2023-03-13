@@ -26,7 +26,8 @@ const Tikslas = () => {
         Infliacija yra bendra kainų lygio kilimo tendencija. Tai reiškia, kad
         infliacija didina prekių ir paslaugų kainas, nes už tą patį kiekį pinigų
         galima nusipirkti mažiau prekių ar paslaugų.
-        <ol>
+        <br/>
+        <ol className="list-decimal">
           <li>sužinoti kaip pasikeitė 100€ perkamoji galia per pastaruosius 5 metus euro zonai priklausančiose šalyse</li>
           <li>sudaryti būtiniausių maisto prekių sąrašą</li>
           <li>sudaryti būtiniausių paslaugų sąrašą</li>
