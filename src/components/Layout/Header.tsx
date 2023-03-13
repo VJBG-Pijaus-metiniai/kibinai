@@ -25,6 +25,9 @@ export const Header = () => {
               <a href="#stats" className="cursor-pointer">
                 Statistika
               </a>
+              <a href="#result" className="cursor-pointer">
+                Išvados
+              </a>
               <a href="#about" className="cursor-pointer">
                 Apie komanda
               </a>
@@ -52,6 +55,13 @@ export const Header = () => {
                 className="cursor-pointer"
               >
                 Statistika
+              </a>
+              <a
+                href="#result"
+                onClick={() => setIsDropped(false)}
+                className="cursor-pointer"
+              >
+                Išvados
               </a>
               <a
                 href="#about"

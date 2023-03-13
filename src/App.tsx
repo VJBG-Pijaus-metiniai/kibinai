@@ -27,12 +27,12 @@ const App = () => {
     <div className="bg-yellow-100 overflow-hidden scroll-smooth">
       <Header />
       <HeroSection />
-      <AboutTeam />
       <Tikslas />
       <Statistics />
       <Pirkiniai />
       <Paslaugos />
       <Thoughts />
+      <AboutTeam />
       <Footer />
     </div>
   );

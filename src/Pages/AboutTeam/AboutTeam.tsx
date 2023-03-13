@@ -3,8 +3,8 @@ import React from "react";
 const AboutTeam = () => {
   return (
     <div
-      id="target"
-      className="max-w-5xl py-[250px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-between"
+      id="about"
+      className="max-w-5xl text-center py-[250px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-between"
     >
       <div className="md:mt-4 px-3 text-yellow-600 text-xl flex-1 md:px-6">
         <p className="text-3xl mb-4 font-bold">
