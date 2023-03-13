@@ -30,7 +30,7 @@ const App = () => {
       <Statistics />
       <Pirkiniai />
       <Paslaugos />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <Footer />
     </div>
   );
