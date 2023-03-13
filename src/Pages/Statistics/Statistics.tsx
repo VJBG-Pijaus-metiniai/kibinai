@@ -7,7 +7,7 @@ const Statistics = () => {
   return (
     <div
       id="stats"
-      className="max-w-7xl pb-[100px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-between"
+      className="max-w-7xl py-[100px] md:pr-3 mx-auto flex-col flex items-center md:items-start md:flex-row md:justify-between"
     >
       <div className="md:mt-4 px-3 text-yellow-600 text-2xl flex-1 md:px-6">
         <b className="text-2xl mb-4">

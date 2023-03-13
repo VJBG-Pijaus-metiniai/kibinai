@@ -16,20 +16,45 @@ export const Header = () => {
             <GiHamburgerMenu onClick={() => setIsDropped(!isDropped)} />
           ) : (
             <>
-              <a href="#home" className="cursor-pointer">
+              <a
+                href="#home"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
+              >
                 Pagrindinis
               </a>
-              <a href="#target" className="cursor-pointer">
+              <a
+                href="#target"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
+              >
                 Tikslas
               </a>
-              <a href="#stats" className="cursor-pointer">
+              <a
+                href="#stats"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
+              >
                 Statistika
               </a>
-              <a href="#result" className="cursor-pointer">
+              <a
+                href="#result"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
+              >
                 Išvados
               </a>
-              <a href="#about" className="cursor-pointer">
+              <a
+                href="#about"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
+              >
                 Apie komanda
+              </a>
+              <a
+                href="https://github.com/VJBG-Pijaus-metiniai/kibinai"
+                target="_blank"
+              >
+                <img
+                  className="max-w-[43px] cursor-pointer hover:shadow-lg p-1 rounded-full"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
+                  alt="Github logo"
+                />
               </a>
             </>
           )}
@@ -38,37 +63,47 @@ export const Header = () => {
               <a
                 href="#home"
                 onClick={() => setIsDropped(false)}
-                className="cursor-pointer"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
               >
                 Pagrindinis
               </a>
               <a
                 href="#target"
                 onClick={() => setIsDropped(false)}
-                className="cursor-pointer"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
               >
                 Tikslas
               </a>
               <a
                 href="#stats"
                 onClick={() => setIsDropped(false)}
-                className="cursor-pointer"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
               >
                 Statistika
               </a>
               <a
                 href="#result"
                 onClick={() => setIsDropped(false)}
-                className="cursor-pointer"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
               >
                 Išvados
               </a>
               <a
                 href="#about"
                 onClick={() => setIsDropped(false)}
-                className="cursor-pointer"
+                className="cursor-pointer p-1 rounded-md hover:shadow-lg"
               >
                 Apie komanda
+              </a>
+              <a
+                href="https://github.com/VJBG-Pijaus-metiniai/kibinai"
+                target="_blank"
+              >
+                <img
+                  className="max-w-[43px] mx-auto cursor-pointer hover:shadow-lg p-1 rounded-full"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
+                  alt="Github logo"
+                />
               </a>
             </div>
           )}

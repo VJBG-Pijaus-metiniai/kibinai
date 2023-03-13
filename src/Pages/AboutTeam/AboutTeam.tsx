@@ -11,13 +11,6 @@ const AboutTeam = () => {
           Vilniaus Jono Basanavičiaus gimnazijos komanda "Kibinai" (komandos
           kategorija - B).
         </p>
-        <br />
-        <br />
-        <b>
-          2023 m. Europos statistikos konkurso nacionalinio etapo II-oji
-          užduotis (pristatymas)
-        </b>
-        <br />
         Pavadinimą "Kibinai" pasirinkome įkvėpti tradicinio karaimų patiekalo -
         kibino, dabar tapusio ir visos Lietuvos kulinariniu paveldu. Šis
         patiekalas parodo Lietuvos žmonių toleranciją ir atvirumą kitoms

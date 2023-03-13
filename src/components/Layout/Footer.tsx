@@ -14,7 +14,7 @@ const Footer = () => {
           čia
         </a>
       </div>
-      <div className="max-w-[150px]">
+      <div className="max-w-[150px] flex items-center gap-3">
         <img
           src="https://www.esc2023.eu/assets/images/logo-esc-424x214.png"
           alt="konkurso logo"
