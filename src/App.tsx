@@ -9,7 +9,7 @@ import Tikslas from './Pages/Tikslas/Tikslas';
 import AboutUs from './Pages/About/AboutUs';
 import Pirkiniai from './Pages/Pirkiniai/Pirkiniai';
 import Paslaugos from './Pages/Paslaugos/Paslaugos';
-import Thoughts from './Pages/Thoughts/Thoughts.tsx';
+import Thoughts from './Pages/Thoughts/Thoughts';
 
 const App = () => {
   const [_, setIsMobile] = useRecoilState(isMobileState);
