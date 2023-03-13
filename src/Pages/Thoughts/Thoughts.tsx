@@ -10,7 +10,7 @@ const Thoughts = () => {
         <p className="text-3xl mb-4 font-bold">Išvados:</p>
         <br />
         <br />
-        <b>Prekių krepšelis</b><Br/> 1 l pieno 2017 metais kainavo 0.73€, o 2021 metais
+        <b>Prekių krepšelis</b><br/> 1 l pieno 2017 metais kainavo 0.73€, o 2021 metais
         0.77€, jo kaina per 5 metus pakilo 5%. 2017 – 2018 metais kaina buvo ta
         pati. 2019 metais ji nukrito 1% ir 2019 – 2021 metais pakilo 7%.
         Obuoliai 2017 metais kainavo 0.65€, o 2021 metais 0.78€, jų kaina per 5
