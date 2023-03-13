@@ -48,7 +48,7 @@ const Paslaugos = () => {
           Pasirinktų paslaugų kainų pokytis nuo 2017 iki 2021
         </p>
         <br /> Šiame grafike vaizduojami kainų pokyčiai tam tikroms paslaugoms
-        per penkerius metus nuo 2017 iki 2022 metų. Diagrama rodo, kaip kainos
+        per penkerius metus nuo 2017 iki 2021 metų. Diagrama rodo, kaip kainos
         keitėsi per šiuos penkerius metus ir leidžia matyti, ar jos krito ar
         kilo. Taip pat diagrama gali parodyti, ar kainos svyravo per tam tikrus
         laikotarpius arba ar jos kito palaipsniui per visą penkerių metų
