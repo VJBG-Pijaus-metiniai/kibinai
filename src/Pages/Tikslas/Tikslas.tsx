@@ -27,7 +27,7 @@ const Tikslas = () => {
         infliacija didina prekių ir paslaugų kainas, nes už tą patį kiekį pinigų
         galima nusipirkti mažiau prekių ar paslaugų.
         <br/>
-        <ol className="list-decimal ml-3">
+        <ol className="list-decimal ml-5">
           <li>sužinoti kaip pasikeitė 100€ perkamoji galia per pastaruosius 5 metus euro zonai priklausančiose šalyse</li>
           <li>sudaryti būtiniausių maisto prekių sąrašą</li>
           <li>sudaryti būtiniausių paslaugų sąrašą</li>
