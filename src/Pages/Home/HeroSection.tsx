@@ -36,6 +36,7 @@ const HeroSection = () => {
         <br /> Balsuokit už mus{' '}
         <a
           href="https://www.facebook.com/photo?fbid=596246159199327&set=pcb.596257965864813"
+          target="_blank"
           className="underline cursor-pointer text-yellow-500"
         >
           čia
