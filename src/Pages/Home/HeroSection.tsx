@@ -40,8 +40,7 @@ const HeroSection = () => {
           className="underline cursor-pointer text-yellow-500"
         >
           čia
-        </a>{' '}Paspausdami "Like"
-        😁
+        </a>{' '}😁
       </div>
       <div className="max-w-lg">
         <Globe
